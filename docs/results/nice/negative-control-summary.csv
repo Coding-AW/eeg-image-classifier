@@ -1,0 +1,10 @@
+control,observations,mean_top1,minimum_top1,maximum_top1,analytical_chance,individual_fail_ceiling,passed
+permuted_candidate_rows,100,0.00505,0.0,0.02,0.005,0.05,True
+permuted_category_names,100,0.00465,0.0,0.02,0.005,0.05,True
+permuted_labels,100,0.004549999999999999,0.0,0.02,0.005,0.05,True
+permuted_stimulus_ids,100,0.0039000000000000003,0.0,0.015,0.005,0.05,True
+random_ranking,100,0.005250000000000001,0.0,0.015,0.005,0.05,True
+shuffled_eeg_rows,100,0.00335,0.0,0.015,0.005,0.05,True
+shuffled_training_pairs_seed_101,100,0.006450000000000001,0.0,0.025,0.005,0.05,True
+shuffled_training_pairs_seed_211,100,0.00465,0.0,0.015,0.005,0.05,True
+shuffled_training_pairs_seed_307,100,0.005,0.0,0.02,0.005,0.05,True

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If this software supports your work, cite this repository and the sources listed in the documentation."
+title: "EEG Image Classifier: NICE-Style Averaged-EEG Concept Retrieval"
+type: software
+version: 1.0.0
+date-released: 2026-08-17
+repository-code: "https://github.com/Coding-AW/eeg-image-classifier"
+authors:
+  - name: "EEG Image Classifier contributors"

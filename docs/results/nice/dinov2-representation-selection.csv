@@ -1,0 +1,6 @@
+seed,selection_data,selected_variant,selected_reference_mean,baseline_variant,baseline_reference_mean,reference_mean_change,evaluation_features_loaded
+17,reference-class folds only,layer-06-mean-patch,0.026687106008399304,layer-12-cls,0.0188397248744049,0.007847381133994403,False
+29,reference-class folds only,layer-12-cls,0.01931021331439543,layer-12-cls,0.01931021331439543,0.0,False
+43,reference-class folds only,layer-06-mean-patch,0.026837918759918287,layer-12-cls,0.01871234338970866,0.008125575370209626,False
+71,reference-class folds only,layer-12-cls,0.019777457762346892,layer-12-cls,0.019777457762346892,0.0,False
+101,reference-class folds only,layer-12-cls,0.01887604443392339,layer-12-cls,0.01887604443392339,0.0,False

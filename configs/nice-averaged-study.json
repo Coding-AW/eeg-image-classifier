@@ -1,0 +1,30 @@
+{
+  "experiment": {
+    "subjects": ["sub-01", "sub-02", "sub-03", "sub-04", "sub-05", "sub-06", "sub-07", "sub-08", "sub-09", "sub-10"],
+    "eeg_start_index": 27,
+    "eeg_stop_index": 60,
+    "image_components": 100,
+    "reference_class_limit": null,
+    "evaluation_class_limit": 200,
+    "tuning_class_limit": 200,
+    "tuning_folds": 3,
+    "random_seed": 17,
+    "ridge_alpha_candidates": [10.0, 100.0, 1000.0],
+    "classical_baseline_alpha": 100.0,
+    "classical_semantic_dimensions": [32, 64, 100],
+    "classical_eeg_dimensions": [null, 64, 128],
+    "classical_remove_components": [0, 1, 2],
+    "classical_whitening": [false, true],
+    "classical_csls_neighbors": [5, 10, 20]
+  },
+  "averaged_protocol": {
+    "training_run_seeds": [17, 29, 43, 71, 101],
+    "evaluation_unit": "80-repeat arithmetic mean within immutable stimulus ID",
+    "candidate_protocol": "200 concept templates averaged from all available non-EEG THINGS images",
+    "excluded_candidates": "all images used to elicit reference or evaluation EEG, checked by filename and SHA-256",
+    "primary_retrieval": "independent cosine",
+    "primary_metrics": ["top-1", "top-5"],
+    "repetition_counts": [1, 2, 5, 10, 20, 40, 80],
+    "claim": "participant-specific 200-way concept-template retrieval after averaging 80 known repetitions"
+  }
+}
